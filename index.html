@@ -10,20 +10,27 @@
     <h2>Press your choice to play!</h2>
     <div class="row">
       <div class="column">
-        <button type = "button" class = "rock-btn" onclick= ""> Rock</button>
+        <button type = "button" class = "rock-btn" onclick= "play('rock');"> Rock</button>
         <!-- button for rock -->
       </div>
       <div class="column">
-        <button type = "button" class = "paper-btn" onclick= ""> Paper </button>
+        <button type = "button" class = "paper-btn" onclick= "play('paper');"> Paper </button>
         <!-- button for paper -->
       </div>
       <div class="column">
-        <button type = "button" class = "scissors-btn" onclick= ""> Scissors</button>
+        <button type = "button" class = "scissors-btn" onclick= "play('scissors');"> Scissors</button>
         <!-- button for scissors -->
       </div>
      </div>
-    <div class="results">
-      <!-- results section -->
+    <div class="results1">
+      <h3> Computer Played: </h3>
+        <p id="computer"></p>
+      <h3> You Played: </h3>
+        <p id="user"></p>
+    </div>
+    <div class= "results2">
+      <h3> Result: </h3>
+        <p id="result"></p>
     </div>
     <script src="rps.js"></script>
   </body>

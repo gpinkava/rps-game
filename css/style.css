@@ -38,3 +38,22 @@ p{
 .column{
   padding: 5px;
 }
+
+
+.results1 {
+    position: flex;
+    justify-content: space-evenly;
+    background: #ff8f00;
+    border-radius: 15px;
+    z-index:-1;
+
+}
+
+.results2 {
+    position: flex;
+    justify-content: space-evenly;
+    background: #03fc6f;
+    border-radius: 15px;
+    z-index:-1;
+
+}
