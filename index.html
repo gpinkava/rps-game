@@ -3,33 +3,38 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <title>Rock..Paper..Scissors</title>
+    <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <h1>Rock..Paper..Scissors..SHOOT!</h1>
-    <h2>Press your choice to play!</h2>
+    <h1>Rock  Paper  Scissors</h1>
+    <h2> SHOOT! </h2>
+    <h3>Press your choice to play!</h3>
     <div class="row">
       <div class="column">
-        <button type = "button" class = "rock-btn" onclick= "play('rock');"> Rock</button>
+        <img src= "https://cdn4.iconfinder.com/data/icons/public-sign-part03/100/_-26-512.png" onclick= "play('rock');"> </img>
         <!-- button for rock -->
       </div>
       <div class="column">
-        <button type = "button" class = "paper-btn" onclick= "play('paper');"> Paper </button>
+        <img src= "https://cdn4.iconfinder.com/data/icons/business-thin-line-vector-set/512/paperwork-512.png"onclick= "play('paper');">  </img>
         <!-- button for paper -->
       </div>
       <div class="column">
-        <button type = "button" class = "scissors-btn" onclick= "play('scissors');"> Scissors</button>
-        <!-- button for scissors -->
+        <img src= "https://cdn0.iconfinder.com/data/icons/travel-kit/128/12-512.png" onclick= "play('scissors');"> </img>
+        <!-- use bino theme -->
       </div>
      </div>
     <div class="results1">
-      <h3> Computer Played: </h3>
-        <p id="computer"></p>
-      <h3> You Played: </h3>
-        <p id="user"></p>
+      <div class="row">
+          <h4> Computer Played: </h4>
+            <p id="computer"></p>
+      </div>
+      <div class="row">
+          <h4> You Played: </h4>
+            <p id="user"></p>
+      </div>
     </div>
     <div class= "results2">
-      <h3> Result: </h3>
+      <h4> Result: </h4>
         <p id="result"></p>
     </div>
     <script src="rps.js"></script>

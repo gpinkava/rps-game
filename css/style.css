@@ -9,6 +9,7 @@ h1{
 
 body{
   text-align:center;
+  background-color: #C7C5C5; 
 }
 h3{
   padding-top: none;
@@ -17,23 +18,12 @@ p{
   padding-top: none;
 }
 
-.rock-button{
-    cursor:pointer;
-}
-
-
-.paper-button{
-  cursor: pointer;
-}
-
-
-.scissors-button{
-  cursor: pointer;
-}
 
 .row{
   display:flex;
   justify-content: space-evenly;
+  font-size: 30px;
+    cursor: pointer;
 }
 .column{
   padding: 5px;
@@ -54,6 +44,7 @@ p{
     justify-content: space-evenly;
     background: #03fc6f;
     border-radius: 15px;
+      font-size: 30px;
     z-index:-1;
 
 }

@@ -12,7 +12,7 @@ function play(userChoice){
 	if (computerChoice < 0.34){
 		computerChoice = "rock";
 	}
-	if (computerChoice > 0.34 || computerChoice < 0.68){
+	if (computerChoice > 0.34 && computerChoice < 0.68){
 		computerChoice = "paper";
 	}
 	if (computerChoice > 0.68){
